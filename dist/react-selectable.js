@@ -902,14 +902,6 @@ var SelectableGroup = function (_React$Component) {
 		value: function render() {
 			var Component = this.props.component;
 
-			if (!this.props.enabled) {
-				return _react2.default.createElement(
-					Component,
-					{ className: this.props.className },
-					this.props.children
-				);
-			}
-
 			var boxStyle = {
 				left: this.state.boxLeft,
 				top: this.state.boxTop,
